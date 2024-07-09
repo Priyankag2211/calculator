@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #F6EEC9;
+}
+.block{
+    height: 100vh;
+}
+.claculator{
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px 0;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input{
+    background-color: transparent !important;
+    color: white;
+    font-size: 22px !important;
+}
+input::placeholder{
+    color: white !important;
+    font-size: 22px;
+}
+.form-control:active{
+    box-shadow: none !important;
+}
+.operator{
+    color: #F23801;
+}
+button{
+    height: 40px;
+    width: 55px;
+    border-radius: 10% !important;
+    /* box-shadow: 1px 1px #afa2a2; */
+    box-shadow: 0 0 1px #fff;
+    color:#D8D8D8;
+    font-weight: 600 !important;
+    /* background-color: rgb(44, 40, 40); */
+    /* color: white; */
+}
+.eq{
+    color: white;
+    background-color: #F23801;
+}
